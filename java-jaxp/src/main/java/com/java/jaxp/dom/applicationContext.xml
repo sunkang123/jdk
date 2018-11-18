@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+    <bean class="com.java.jaxp.dom.ValidateXmlTest" id="validateXmlTest" >
+        <property name="sun" value="kang"></property>
+        <property name="list">
+            <props>
+                <prop key="23">234</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

@@ -1,0 +1,10 @@
+<beans>
+    <bean id="bean1" class ="com.java.jaxp.dom">
+          <property name="username">sunkang</property>
+    </bean>
+    <bean id="bean2" class ="com.java.jaxp.dom">
+        <property name="name">sunkang</property>
+        <property name="username">sunkang</property>
+    </bean>
+
+</beans>
